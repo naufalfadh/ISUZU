@@ -1,3 +1,4 @@
+
 export default function BerandaIndex() {
   return (
     <>
@@ -8,11 +9,17 @@ export default function BerandaIndex() {
           </span>
         </div>
         <div className="card-body lead p-4">
+       
           Sistem Informasi Produksi ini akan membantu Anda dalam mengelola
           proses produksi dengan lebih efisien.
           <br />
           Mari mulai dengan mengeksplorasi fitur-fitur yang ada dengan mengakses
-          menu yang tersedia.
+          menu yang tersedia.<br/>
+          {/* <img
+            src="/src/assets/Web-banner-Top-brand_720px.jpg"
+            alt="Deskripsi Gambar"
+            style={{ width: '1200px', height: '1000px' }}
+          /> */}
         </div>
       </div>
     </>

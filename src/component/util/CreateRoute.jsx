@@ -5,6 +5,7 @@ const MasterPelanggan = lazy(() => import("../page/master-pelanggan/Root"));
 const MasterProduk = lazy(() => import("../page/master-produk/Root"));
 const MasterProses = lazy(() => import("../page/master-proses/Root"));
 const MasterModel= lazy(() => import("../page/master-model/Root"));
+const MasterKerusakan= lazy(() => import("../page/master-kerusakan/Root"));
 const MasterKursProses = lazy(() => import("../page/master-kurs-proses/Root"));
 const MasterAlatMesin = lazy(() => import("../page/master-alat-mesin/Root"));
 const MasterOperator = lazy(() => import("../page/master-operator/Root"));
@@ -32,6 +33,10 @@ const routeList = [
   {
     path: "/master_model",
     element: <MasterModel />,
+  },
+  {
+    path: "/master_kerusakan",
+    element: <MasterKerusakan />,
   },
   {
     path: "/master_kurs_proses",
